@@ -19,127 +19,198 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main class="page">
+    <main>
       <div class="fade-in">
-        <header class="intro">
-          <p class="name">Christian Gouw</p>
-          <p class="updated">Updated Jul 29, 2026</p>
+        <header>
+          <div class="container intro">
+            <p class="name">Christian Gouw</p>
+            <p class="updated" id="greeting"></p>
+          </div>
         </header>
 
-        <section class="bio">
-          <p>
-            I'm a Frontend Engineer, currently working in SWE at
-            <a href="techinasia.com" target="_blank" rel="noopener noreferrer"
-              >Tech In Asia</a
-            >, I work at the intersection of product, design, and engineering,
-            building features that improve how users discover, access, and
-            engage with Tech in Asia.
-          </p>
-          <p>
-            Much of my work focuses on growth, onboarding, account experiences,
-            and the underlying UI foundations that quietly support products used
-            across the platform.
-          </p>
-          <p>
-            I'm always down for a chat! You can find me on
-            <a
-              href="https://github.com/cehaaa"
-              target="_blank"
-              rel="noopener noreferrer"
-              >GitHub</a
-            >,
-            <a
-              href="https://linkedin.com/in/christianchristiann"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Linkedin</a
-            >, or reach me via
-            <a href="mailto:christiangouw@gmail.com">email</a>.
-          </p>
-        </section>
-
-        <section class="list-section">
-          <header class="list-header">
-            <h2>Work Experiences</h2>
-          </header>
-
-          <ul class="entry-list entry-list--group">
-            <li class="entry">
-              <div class="entry-link">
-                <span class="entry-year">2024</span>
-                <span class="entry-title-wrap">
-                  <span class="entry-title">Tech In Asia</span>
-                </span>
-                <span class="entry-role">Frontend Engineer</span>
-              </div>
-            </li>
-            <li class="entry">
-              <div class="entry-link">
-                <span class="entry-year">2023</span>
-                <span class="entry-title-wrap">
-                  <span class="entry-title">Layer-C</span>
-                </span>
-                <span class="entry-role">Web3 Frontend Engineer</span>
-              </div>
-            </li>
-            <li class="entry">
-              <div class="entry-link">
-                <span class="entry-year">2022</span>
-                <span class="entry-title-wrap">
-                  <span class="entry-title">Apple Developer Academy</span>
-                </span>
-                <span class="entry-role">Student/Intern</span>
-              </div>
-            </li>
-            <li class="entry">
-              <div class="entry-link">
-                <span class="entry-year">2021</span>
-                <span class="entry-title-wrap">
-                  <span class="entry-title">Grha Digital Indonesia</span>
-                </span>
-                <span class="entry-role">Frontend Engineer</span>
-              </div>
-            </li>
-          </ul>
-        </section>
-
-        <section class="list-section">
-          <header class="list-header">
-            <h2>Side Quests</h2>
-          </header>
-
-          <ul class="entry-list entry-list--group">
-            <li class="entry">
+        <section>
+          <div class="container bio">
+            <p>
+              I'm a Frontend Engineer, currently working in SWE at
+              <a href="techinasia.com" target="_blank" rel="noopener noreferrer"
+                >Tech In Asia</a
+              >, I work at the intersection of product, design, and engineering,
+              building features that improve how users discover, access, and
+              engage with Tech in Asia.
+            </p>
+            <p>
+              Much of my work focuses on growth, onboarding, account
+              experiences, and the underlying UI foundations that quietly
+              support products used across the platform.
+            </p>
+            <p>
+              I'm always down for a chat! You can find me on
               <a
-                href="https://scooterbuffworkshop.com"
-                class="entry-link"
+                href="https://github.com/cehaaa"
                 target="_blank"
                 rel="noopener noreferrer"
-              >
-                <span class="entry-year">2026</span>
-                <span class="entry-title-wrap">
-                  <span class="entry-title">scooterbuffworkshop.com</span>
-                </span>
-                <span class="entry-date">14/03</span>
-              </a>
-            </li>
-            <li class="entry">
+                >GitHub</a
+              >,
               <a
-                href="https://akuntanbisnisku.com"
-                class="entry-link"
+                href="https://linkedin.com/in/christianchristiann"
                 target="_blank"
                 rel="noopener noreferrer"
-              >
-                <span class="entry-year">2025</span>
-                <span class="entry-title-wrap">
-                  <span class="entry-title">akuntanbisnisku.com</span>
-                </span>
-                <span class="entry-date">02/02</span>
-              </a>
-            </li>
-          </ul>
+                >Linkedin</a
+              >, or reach me via
+              <a href="mailto:christiangouw@gmail.com">email</a>.
+            </p>
+          </div>
+        </section>
+
+        <section>
+          <div class="container list-section">
+            <header class="list-header">
+              <h2>Work Experiences</h2>
+            </header>
+
+            <ul class="entry-list entry-list-group">
+              <li class="entry">
+                <div class="entry-wrapper">
+                  <span class="entry-meta">2024</span>
+                  <span class="entry-main">
+                    <span class="entry-label">Tech In Asia</span>
+                  </span>
+                  <span class="entry-detail">Frontend Engineer</span>
+                </div>
+              </li>
+              <li class="entry">
+                <div class="entry-wrapper">
+                  <span class="entry-meta">2023</span>
+                  <span class="entry-main">
+                    <span class="entry-label">Layer-C</span>
+                  </span>
+                  <span class="entry-detail">Web3 Frontend Engineer</span>
+                </div>
+              </li>
+              <li class="entry">
+                <div class="entry-wrapper">
+                  <span class="entry-meta">2022</span>
+                  <span class="entry-main">
+                    <span class="entry-label">Apple Developer Academy</span>
+                  </span>
+                  <span class="entry-detail">Student/Intern</span>
+                </div>
+              </li>
+              <li class="entry">
+                <div class="entry-wrapper">
+                  <span class="entry-meta">2021</span>
+                  <span class="entry-main">
+                    <span class="entry-label">Grha Digital Indonesia</span>
+                  </span>
+                  <span class="entry-detail">Frontend Engineer</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <div class="container list-section">
+            <header class="list-header">
+              <h2>Side Quests</h2>
+            </header>
+
+            <ul class="entry-list entry-list-group">
+              <li class="entry">
+                <div class="entry-wrapper">
+                  <span class="entry-meta">2026</span>
+                  <span class="entry-main">
+                    <span class="entry-label">scooterbuffworkshop.com</span>
+                  </span>
+                  <div class="entry-detail">
+                    <a
+                      href="https://scooterbuffworkshop.com"
+                      class="entry-link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Visit website
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="size-5"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M5.22 14.78a.75.75 0 0 0 1.06 0l7.22-7.22v5.69a.75.75 0 0 0 1.5 0v-7.5a.75.75 0 0 0-.75-.75h-7.5a.75.75 0 0 0 0 1.5h5.69l-7.22 7.22a.75.75 0 0 0 0 1.06Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="entry">
+                <div class="entry-wrapper">
+                  <span class="entry-meta">2025</span>
+                  <span class="entry-main">
+                    <span class="entry-label">akuntanbisnisku.com</span>
+                  </span>
+                  <div class="entry-detail">
+                    <a
+                      href="https://akuntanbisnisku.com"
+                      class="entry-link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Visit website
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="size-5"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M5.22 14.78a.75.75 0 0 0 1.06 0l7.22-7.22v5.69a.75.75 0 0 0 1.5 0v-7.5a.75.75 0 0 0-.75-.75h-7.5a.75.75 0 0 0 0 1.5h5.69l-7.22 7.22a.75.75 0 0 0 0 1.06Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
         </section>
       </div>
     </main>
+
+    <script>
+      const NAMES = [
+        "wanderer",
+        "traveler",
+        "dreamer",
+        "stargazer",
+        "explorer",
+      ];
+      const GREETINGS = {
+        morning: ["good morning 🌥️", "morning! 🌥️"],
+        afternoon: ["good afternoon ☀️", "afternoon! ☀️"],
+        evening: ["good evening 🌙", "evening! 🌙"],
+      };
+
+      function random(arr) {
+        return arr[Math.floor(Math.random() * arr.length)];
+      }
+
+      function getGreeting() {
+        const hour = new Date().getHours();
+        const template = `hello ${random(NAMES)},`;
+        let greeting = "";
+
+        if (hour < 12) greeting = random(GREETINGS["morning"]);
+        else if (hour < 18) random(GREETINGS["afternoon"]);
+        else greeting = random(GREETINGS["evening"]);
+
+        return `${template} ${greeting}`;
+      }
+
+      document.getElementById("greeting").textContent = getGreeting();
+    </script>
   </body>
 </html>
