@@ -14,9 +14,9 @@ function getGreeting() {
   const template = `hello ${random(NAMES)},`;
   let greeting = "";
 
-  if (hour < 12) greeting = random(GREETINGS["morning"]);
-  else if (hour < 18) greeting = random(GREETINGS["afternoon"]);
-  else greeting = random(GREETINGS["evening"]);
+  if (hour < 12) greeting = random(GREETINGS.morning);
+  else if (hour < 18) greeting = random(GREETINGS.afternoon);
+  else greeting = random(GREETINGS.evening);
 
   return `${template} ${greeting}`;
 }
