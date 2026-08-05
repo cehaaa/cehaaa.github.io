@@ -1,4 +1,4 @@
-const MEASUREMENT_ID = "G-0XB2EYR8TH";
+const MEASUREMENT_ID = "G-DT6Z4EZ3HE";
 
 window.dataLayer = window.dataLayer || [];
 function gtag() {
