@@ -98,6 +98,10 @@
 }
 .step-body {
   color: #2f2f2f;
+  /* Grid items default to min-width:auto, so a long unwrapped command inside
+     .step-code would widen the column and push the page sideways instead of
+     scrolling within its own box. */
+  min-width: 0;
 }
 .step-body strong {
   font-weight: 500;
@@ -107,6 +111,25 @@
   font-family: var(--font-mono);
   font-size: 12.5px;
   color: var(--text-primary);
+}
+
+/* Terminal command inside an install step. nowrap rather than pre, so the
+   newlines used to keep the HTML readable collapse to single spaces and the
+   command still copies as one line. */
+.step-code {
+  display: block;
+  margin-top: 9px;
+  padding: 10px 12px;
+  overflow-x: auto;
+  border: 1px solid var(--border-line);
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.02);
+}
+.step-code code {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--text-primary);
+  white-space: nowrap;
 }
 
 .callout {

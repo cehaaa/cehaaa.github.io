@@ -8,8 +8,8 @@ const schema = {
   operatingSystem: "macOS 12 or later",
   softwareVersion: "1.0",
   url: "https://cehaaa.github.io/reff/",
-  downloadUrl: "https://cehaaa.github.io/reff/Reff-1.0.dmg",
-  fileSize: "306 KB",
+  codeRepository: "https://github.com/cehaaa/reff",
+  programmingLanguage: "Swift",
   offers: {
     "@type": "Offer",
     price: "0",
