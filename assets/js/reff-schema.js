@@ -9,7 +9,7 @@ const schema = {
   softwareVersion: "1.0",
   url: "https://cehaaa.github.io/reff/",
   downloadUrl: "https://cehaaa.github.io/reff/Reff-1.0.dmg",
-  fileSize: "1.1 MB",
+  fileSize: "306 KB",
   offers: {
     "@type": "Offer",
     price: "0",
