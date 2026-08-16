@@ -64,20 +64,6 @@ body {
   }
 }
 
-.site-nav {
-  display: flex;
-  gap: 16px;
-  margin-top: 0.6rem;
-}
-.site-nav a {
-  color: var(--text-secondary);
-  text-decoration: none;
-  font-size: 13px;
-}
-.site-nav a:hover {
-  color: var(--text-primary);
-}
-
 .intro {
   display: flex;
   flex-direction: column;
